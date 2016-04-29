@@ -1,0 +1,15 @@
+local p = Instance.new("Part")
+p.Parent = game.Workspace
+p.Position = Vector3.new(0, 1, 0)
+p.Anchored = true
+p.Size = Vector3.new(4,1,4)
+p.BrickColor = BrickColor.new(37)
+p.Name = "Button1"
+
+local p = Instance.new("Part")
+p.Parent = game.Workspace
+p.Position = Vector3.new(0, 1, 20)
+p.Anchored = true
+p.Size = Vector3.new(6,8,1)
+p.BrickColor = BrickColor.new(37)
+p.Name = "Door"
