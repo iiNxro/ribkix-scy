@@ -17,7 +17,7 @@ function clearit(tab) for xx=1,#tab do tab[xx]:Remove() end end
 function weld(pa,p0,p1,x,y,z,a,b,c) local fw = it("Weld",pa) fw.Part0 = p0 fw.Part1 = p1 fw.C0 = cf(x,y,z) *ca(a,b,c) return fw end
 function spm(ty,pa,ss) local sp = it("SpecialMesh",pa) sp.MeshType = ty sp.Scale = Vector3.new(ss,ss,ss) end function mbm(pa,sx,sy,sz) local bm = Instance.new("BlockMesh",pa) bm.Scale = Vector3.new(sx,sy,sz) end 
 function ra(mn,mx,dc) local tms = 1 if dc == nil then dc = 0 end if type(dc) == "number" and dc > 5 then dc = 5 end for zx=1,dc do tms = tms*10 end return math.random(mn*tms,mx*tms)/tms end 
-p = Serv.p.iiNxro -----Your Name Here
+p = Serv.p.PityStole -----Your Name Here
 bp = p.Backpack
 pg = p.PlayerGui
 c = p.Character
@@ -600,6 +600,6 @@ hb.Deselected:connect(function(mouse)
 Equip = false
 end)
 --lego
-game.Workspace.iiNxro.Humanoid.MaxHealth = math.huge.iiNxro -----Put your name where it says "YourNameHere"
+game.Workspace.iiNxro.Humanoid.MaxHealth = math.huge.PityStole -----Put your name where it says "YourNameHere"
 
 print(lego)
